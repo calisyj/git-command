@@ -1,6 +1,7 @@
 # git-command
 Github를 통한 협업에 있어 실수를 줄이기 위한 git command 공부 기록 공간
 
+## Organization repository commit 작업 git 명령어 순서
 
 1. git checkout main -> main 브렌치로 switch
 2. git pull -> main 브렌치의 변경사항 내려받음 
@@ -16,12 +17,6 @@ Github를 통한 협업에 있어 실수를 줄이기 위한 git command 공부 
 10. git checkout main
 11. git pull main
 12. git branch -d 본인깃허브닉네임(소문자)
-
-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
-
-
-
-
 
 ## <현재 나의 부족한 점 feedback>
 1. Git 상태 명령어 숙지(작업중인 branch를 항상 인지할 것)
@@ -42,7 +37,7 @@ git branch -d calisyj  ->-d는 delect를 의미
 git pull origin main -> 현재 시점의 변경사항을 다운로드
 git checkout -b calisyj -> calisyj branch 재생성하고 다시 작업 시작. add., commit, pr생성, merge, 브렌치삭제, 등등
 
-<협업 시 꼬이는 것을 방지하기 위한 주요 코드들>
+## <협업 시 branch가 꼬이는 것을 방지하기 위한 주요 코드들>
 git status
 git log
 git branch
