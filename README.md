@@ -18,7 +18,8 @@ reference: https://github.com/inseonyun
 11. git pull main
 12. git branch -d 본인깃허브닉네임(소문자)
 
-## <현재 나의 부족한 점 feedback>
+## <나의 부족한 점 feedback>
+22-05-07 
 1. Git 상태 명령어 숙지(작업중인 branch를 항상 인지할 것)
 -> 현재 내가 어디서 무슨 작업을 하고 있는지 숙지하는게 중요함.
 2.  Git 명령어 수행 log들 읽을줄 알아야함!
