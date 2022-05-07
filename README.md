@@ -27,20 +27,20 @@ Github를 통한 협업에 있어 실수를 줄이기 위한 git command 공부 
 
 ## <반복연습하며 숙지할 코드들>
 - 현재 작업 branch 삭제할 경우 (branch main이동 -> calisyj branch 삭제 -> main 최신상태 받아오기 -> calisyj branch 생성, 이동)
-git checkout main 
-git branch -d calisyj 
-git pull origin main
-git checkout -b calisyj
+git checkout main  
+git branch -d calisyj  
+git pull origin main  
+git checkout -b calisyj  
 
-git checkout main ->현재 branch main으로 
-git branch -d calisyj  ->-d는 delect를 의미
-git pull origin main -> 현재 시점의 변경사항을 다운로드
-git checkout -b calisyj -> calisyj branch 재생성하고 다시 작업 시작. add., commit, pr생성, merge, 브렌치삭제, 등등
+git checkout main ->현재 branch main으로  
+git branch -d calisyj  ->-d는 delect를 의미  
+git pull origin main -> 현재 시점의 변경사항을 다운로드  
+git checkout -b calisyj -> calisyj branch 재생성하고 다시 작업 시작. add., commit, pr생성, merge, 브렌치삭제, 등등  
 
 ## <협업 시 branch가 꼬이는 것을 방지하기 위한 주요 코드들>
-git status
-git log
-git branch
+git status  
+git log  
+git branch  
 git checkout main  
-git pull origin main
-shift; q
+git pull origin main  
+shift; q  
