@@ -38,9 +38,10 @@ git pull origin main -> 현재 시점의 변경사항을 다운로드
 git checkout -b calisyj -> calisyj branch 재생성하고 다시 작업 시작. add., commit, pr생성, merge, 브렌치삭제, 등등  
 
 ## <협업 시 branch가 꼬이는 것을 방지하기 위한 주요 코드들>
-git status  
-git log  
-git branch  
-git checkout main  
+git status -> 현재 Branch와 Stage 정보를 보여준다.  
+git show -> 가장 최근 commit의 log와 변경사항을 보여준다.
+git log  -> 가장 최근 commit의 log를 볼 수 있다. commi log란 다양한 commit 내역을 시간 순서대로 확인하는 것을 의미한다.   
+git branch  -> 현재 branch 확인
+git checkout main  ->  branch를 main으로 이동  
 git pull origin main  
-shift; q  
+shift; q  -> 입력 안될 시.
