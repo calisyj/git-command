@@ -15,7 +15,7 @@ reference: https://github.com/inseonyun
 ->repository하려는 github 페이지 상단에 뜬 Compare& pull request 클릭 후 양식 rule에 맞춰 PR 생성
 9. merge 진행하고 delete 브렌치 수행
 10. git checkout main
-11. git pull main
+11. git pull origin main
 12. git branch -d 본인깃허브닉네임(소문자)
 
 ## <나의 부족한 점 feedback>
