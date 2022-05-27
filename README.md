@@ -4,7 +4,7 @@ Github를 통한 협업에 있어 실수를 줄이기 위한 git command 공부 
 ## Organization repository commit 작업 git 명령어 순서 
 reference: https://github.com/inseonyun
 1. git checkout main -> main 브렌치로 switch
-2. git pull  -> main 브렌치의 변경사항 내려받음 
+2. git pull origin main  -> main 브렌치의 변경사항 내려받음 
 3. git checkout -b 본인깃허브닉네임(소문자)
 4. 소스 코드 파일 구조에 맞게 생성 (ex. BOJ폴더 생성 -> 생성된 폴더 안에 Stack폴더 생성 -> 그 안에 본인 id폴더 생성
 -> 그 안에 문제 이름(ex. balloons) 폴더 생성)
