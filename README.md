@@ -74,7 +74,7 @@ git init
 git remote add origin 2번의url붙여넣기  
 git remote update  
 git 창 닫기  
----------------- git clone 성공적으로 했고 코드 업데이트만 시킬 경우는 아래의 경우를 참고 ----------  
+---------------- git clone 성공적으로 했고 코드 업데이트만 시킬 경우는 아래의 내용부터시작하면 됨 ----------  
 3. 작업 중인 코드 깃허브에 업로드하기  
 - Django폴더 우클릭 후 Git bash here  
 - Django폴더 들어가면 Web-Visualization 폴더가 생성된 것을 확인할 수 있다.  
